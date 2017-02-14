@@ -1,0 +1,26 @@
+
+{
+    "name"        : "aminbd07/managX",
+    "description" : "An Ultimate Project Manager plugin for WordPress",
+    "keywords"    : ["wordpress", "project", "project management"],
+    "type"        : "wordpress-plugin",
+    "homepage"    : "http://managx.com/",
+    "license"     : "GPL-2.0+",
+    "authors"     : [
+    {
+        "name"    : "Nurul Amin",
+        "email"   : "nurul@managx.com",
+        "homepage": "http://nurulamin.me/"
+    }
+    ],
+    "support"     : {
+        "issues": "https://github.com/aminbd07/managX/issues"
+    },
+    "require"     : {
+        "composer/installers"          : "~1.0",
+        "php"                          : ">=5.2"
+    },
+    "autoload"    : {
+        "classmap": ["managx.php"]
+    }
+}
